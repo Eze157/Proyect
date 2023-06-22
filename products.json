@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Guardianes de la Galaxia 3",
+        "price": 19.99,
+        "image": "./Images/Guardianes-de-la-Galaxia-3-.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Ant-Man and the Wasp: Quantumania",
+        "price": 24.99,
+        "image": "./Images/2023-ant-man-and-the-wasp-quantumania-10k-bk-7680x4320.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Spiderman: No Way Home",
+        "price": 22.99,
+        "image": "./Images/spiderman.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Advengers: End Games",
+        "price": 32.99,
+        "image": "./Images/advengers.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dardevil",
+        "price": 30.99,
+        "image": "./Images/daredivl.jpg"
+    },
+    {
+        "id": 6,
+        "name": "MoonKnight",
+        "price": 15.99,
+        "image": "./Images/moonknight.jpg"
+    },
+    {
+        "id": 7,
+        "name": "The Punisher",
+        "price": 18.99,
+        "image": "./Images/the-punisher.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Loki",
+        "price": 20.99,
+        "image": "./Images/loki.jpg"
+    }
+]

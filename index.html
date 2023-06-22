@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="active">Cas<span>Var</span></a></li>
+            <li><a href="#" id="productsLink">Productos</a></li>
+            <li><a href="#" id="cartLink"><i class="bi bi-cart3"></i></a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <h1>Listado de Productos</h1>
+        <div id="productsContainer"></div>
+    </div>
+
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Carrito de Compras</h2>
+            <div id="cartItems"></div>
+            <div>
+                <span>Total:</span>
+                <span id="totalCost">$0.00</span>
+            </div>
+            <button id="clearCartButton">Vaciar Carrito</button>
+            <button id="checkoutButton">Finalizar Compra</button>
+        <p id="checkoutMessage" class="hide"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
